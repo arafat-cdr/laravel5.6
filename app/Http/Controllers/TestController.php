@@ -95,13 +95,13 @@ class TestController extends Controller
 
     	#$post->save();
 
-    	/*$post = Post::create([
-    		'id'   => 6,
+    	$post = Post::create([
+    		'id'   => 7,
     		'name' => 'my given name update'
     	]);
 
     	echo $post->id;
-        */ 
+         
 
 
     	#update example is here

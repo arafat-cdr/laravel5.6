@@ -32,3 +32,10 @@ Route::group(['middleware' => 'web'], function () {
 	]);
 
 });
+
+Route::get('/author/add', 'AuthorController@create');
+Route::get('/author', 'AuthorController@index');
+
+Route::get('/book/add', 'BookController@create');
+Route::get('/book', 'BookController@index');
+
